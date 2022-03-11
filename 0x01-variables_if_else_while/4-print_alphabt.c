@@ -3,8 +3,7 @@
  * main - where programs are executed
  *
  * Return: returns 0
- */
-
+*/
 int main(void)
 {
   char alpha;
