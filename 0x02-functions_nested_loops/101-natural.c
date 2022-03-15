@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Lists all the natural numbers below 
+* main - Lists all the natural numbers below
 *1024 (excluded)nthat are multiples of 3 or 5.
 *
 * Return: Always 0.
