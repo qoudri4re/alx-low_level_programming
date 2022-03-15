@@ -13,7 +13,7 @@ if (isalpha(c) == 1 || isalpha(c) == 2)
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
