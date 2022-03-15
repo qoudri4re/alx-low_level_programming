@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -9,7 +10,8 @@
 */
 int _islower(int c)
 {
-  if (c >= 97 && c <=122)
+  int islower = islower(c)
+  if (islower != 0)
   {
     return (1);
   } 
