@@ -1,5 +1,5 @@
-#ifndef MAINN_H
-#define MAINN_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int largest_number(int, int, int);
 int convert_day(int month, int day);
