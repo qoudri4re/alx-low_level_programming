@@ -20,11 +20,9 @@ else if (b > a && b > c)
 {
 largest = b;
 }
-else if (c > a && c > b)
+else (c > a && c > b)
 {
 largest = c;
-} else {
-largest = 0;
 }
 return (largest);
 }
