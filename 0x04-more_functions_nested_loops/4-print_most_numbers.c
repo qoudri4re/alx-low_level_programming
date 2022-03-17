@@ -15,7 +15,7 @@ while (c <= '9')
 {
 if ( c == 2 || c == 4)
 {
-continue
+continue;
 }
 _putchar(c);
 c++;
