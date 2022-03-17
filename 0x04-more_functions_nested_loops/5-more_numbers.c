@@ -9,16 +9,22 @@
 
 void more_numbers(void)
 {
-char c = '1';
 
-while (c <= '10')
+int a = 0;
+int b = 0;
+
+while (b <= 9)
 {
-char d = '0';
-while (d <= 14) 
+while (a <= 14)
 {
-_putchar(d);
-d++;
+if (a > 9)
+_putchar(a / 10 + '0');
+_putchar(a % 10 + '0');
+a++;
+
 }
-c++;
 _putchar('\n');
+b++;
+a = 0;
+}
 }
