@@ -4,12 +4,12 @@
 /**
 * _isdigit - checks if a variable is a digit
 * @c: the variable to be checked
-* Return: returns 1 if the variable is uppercase and zero otherwise
+* Return: returns 1 if the variable is a digit and zero otherwise
 */
 
 int _isdigit(int c)
 {
-if (isdigit(ch))
+if (isdigit(c))
 {
 return (1);
 }
