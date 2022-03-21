@@ -14,6 +14,7 @@ int left_index = 0;
 int i;
 for (i = right_index; i >= left_index; i--)
 {
+_putchar(s[i]);
 int j = 0;
 s[j] = s[i];
 j += 1;
