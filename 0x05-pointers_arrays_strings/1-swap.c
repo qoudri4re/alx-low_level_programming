@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* void swap_int - prints all natural numbers from n to 98
+*swap_int - prints all natural numbers from n to 98
 *@a: pointer to the first number
 *@b: pointer to the second number
 * Return: returns 0
