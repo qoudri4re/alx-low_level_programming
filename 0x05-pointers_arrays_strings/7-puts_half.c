@@ -25,5 +25,5 @@ else
   _putchar(str[i]);
   }
 }
-_puchar('\n');
+_putchar('\n');
 }
