@@ -16,5 +16,5 @@ for (i = left_index; i < right_index; i++)
 {
 _putchar(s[i]);
 }
-_putchar("\n");
+_putchar('\n');
 }
