@@ -20,9 +20,9 @@ if (length % 2 == 0)
 }
 else
 {
-for (i = half; i <= length - 1; i++)
-_putchar(str[i]);
+  for (i = half; i <= length - 1; i++)
+  _putchar(str[i]);
+  }
 }
-}
-_putchar("\n");
+_putchar('\n');
 }
