@@ -8,7 +8,7 @@
 */
 void print_rev(char *s)
 {
-length  = sizeof(s)/sizeof(char);
+int length  = sizeof(s)/sizeof(s);
 char reversed_string[length];
 int right_index = length - 1;
 int left_index = 0;
