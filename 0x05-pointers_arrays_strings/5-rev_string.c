@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
-* print_rev(char *s) - a function that reverses a string
+*rev_string- a function that reverses a string
 *@s: string to be   reversed
 * Return: returns 0
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int length  = sizeof(s)/sizeof(s);
 int right_index = length - 1;
