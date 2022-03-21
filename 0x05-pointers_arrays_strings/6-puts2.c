@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* puts2 - prints every other character of a  string
-* @str: string to print
-* Return: Always 0
-*/
+ * puts2 - prints every other character of a  string
+ * @str: string to print
+ * Return: Always 0
+ */
 void puts2(char *str)
 {
 int i = 0;
