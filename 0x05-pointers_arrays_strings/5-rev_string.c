@@ -15,7 +15,7 @@ int left_index = 0;
 int i;
 for (i = right_index; i >= left_index; i--)
 {
-reversed_string += s[i];
+s[i] = s[i];
+
 }
-return(reversed_string);
 }
