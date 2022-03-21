@@ -9,6 +9,6 @@
 */
 void _puts(char *str)
 {
-fputs(str);
-fputs("\n");
+fputs(str, stdout);
+fputs("\n", stdout);
 }
