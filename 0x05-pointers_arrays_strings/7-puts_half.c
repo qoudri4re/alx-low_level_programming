@@ -15,8 +15,8 @@ if (i % 2)
 j += 1;
 while (j < i)
 		{
-putchar(*(str + j));
+_putchar(*(str + j));
 j++;
 }
-putchar('\n');
+_putchar('\n');
 }
