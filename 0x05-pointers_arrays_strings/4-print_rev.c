@@ -14,6 +14,7 @@ int right_index = strlen(s) - 1;
 int i;
 for (i = right_index; i <= left_index; i--)
 {
+  _putchar(i);
 _putchar(s[i]);
 }
 _putchar('\n');
