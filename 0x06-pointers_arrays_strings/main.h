@@ -1,5 +1,5 @@
-#ifndef FILE_HOLBERTON
-#define FILE_HOLBERTON
+#ifndef MAIN_H
+#define MAIN_H
 
 char *_strcat(char *dest, char *src);
 
