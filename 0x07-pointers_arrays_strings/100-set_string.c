@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * set_string - sets pointer val to char
  * @s: pointer
