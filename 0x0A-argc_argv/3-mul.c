@@ -13,6 +13,7 @@ if (argc > 2)
 int i, mul = 1;
 for (i = 0; i < argc; i++)
 {
+  printf("mul=%d-- argv[%d]=%s", mul, i, argv[i]);
 mul *= atoi(argv[i]);
 }
   printf("Here");
