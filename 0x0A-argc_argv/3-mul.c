@@ -11,12 +11,10 @@ int main(int argc, char *argv[])
 if (argc > 2)
 {
 int i, mul = 1;
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
-  printf("mul=%d-- argv[%d]=%s\n", mul, i, argv[i]);
 mul *= atoi(argv[i]);
 }
-  printf("Here");
 printf("%d\n", mul);
 }
 else
