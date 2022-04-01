@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main - function
+* main - prints the name of the file
 * @argc: offset count
 * @argv: offset value
 * Return: 0
 */
 int main(int argc, char* argv[])
 {
-  printf("%s\n",argv[0]);
+  printf("%s\n", argv[0]);
   return (0);
 }
