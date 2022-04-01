@@ -6,7 +6,7 @@
 * @argv: offset value
 * Return: 0
 */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 if (argc > 2)
 {
@@ -15,6 +15,7 @@ for (i = 0; i < argc; i++)
 {
 mul *= atoi(argv[i]);
 }
+  printf("Here");
 printf("%d\n", mul);
 }
 else
