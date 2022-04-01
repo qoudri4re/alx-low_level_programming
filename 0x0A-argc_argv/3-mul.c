@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 {
 if (argc > 2)
 {
-int i, mul = 0;
+int i, mul = 1;
 for (i = 0; i < argc; i++)
 {
 mul *= atoi(argv[i]);
