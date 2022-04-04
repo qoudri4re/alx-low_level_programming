@@ -13,10 +13,7 @@ int len = 0, count = 0;
 char **f, *col;
 
 if (!str || !*str)
-{
 return (NULL);
-}
-
 while (*(str + i))
 {
 if (*(str + i) != ' ')
@@ -28,7 +25,6 @@ count += 1;
 }
 i++;
 }
-
 if (count == 0)
 {
 return (NULL);
@@ -41,7 +37,6 @@ if (!f)
 return (NULL);
 }
 i = 0;
-
 while (*str)
 {
 while (*str == ' ' && *str)
@@ -66,7 +61,6 @@ free(f[k]);
 free(f);
 return (NULL);
 }
-
 for (k = 0; k < (len - 1);  k++)
 {
 *(col + k) = *(str++);
@@ -82,5 +76,3 @@ j++;
 *(f + j) = NULL;
 return (f);
 }
-
-
