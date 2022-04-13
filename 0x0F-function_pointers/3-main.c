@@ -1,3 +1,6 @@
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include "3-calc.h"
 /**
 *main - entry point of a program that adds positive numbers..
