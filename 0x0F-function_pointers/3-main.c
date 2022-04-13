@@ -1,44 +1,23 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "3-calc.h"
-
 /**
-* main - main file
-* @argc: number of lines arguments
-* @argv: array of elements
-* Return: 0
+*main - entry point of a program that adds positive numbers..
+*@argc: integer value.
+*@argv: character value.
+*
+*Return: 0(success)
 */
-
 int main(int argc, char *argv[])
 {
-int R;
-
 if (argc != 4)
 {
 printf("Error\n");
 exit(98);
 }
-
-R = (*get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3]));
-printf("%d\n", R);
-
-return (0);
-/*
-* main - main file
-* @argc: number of lines arguments
-* @argv: array of elements
-* Return: 0
-*/
-int main(int argc, char *argv[])
-{
-int R;
-if (argc != 4)
+if (get_op_func(argv[2]) == NULL)
 {
 printf("Error\n");
-exit(98);
+exit(99);
 }
-R = (*get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3]));
-printf("%d\n", R);
+printf("%d\n", get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3])));
 return (0);
-}
 }
