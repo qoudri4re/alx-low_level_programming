@@ -15,6 +15,6 @@ for (int i = 0; i < n; i++)
 Sum += va_arg(ptr, int);
 va_end(ptr);
 
-return Sum;
+return sum;
 }
 }
