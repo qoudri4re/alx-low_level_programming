@@ -11,7 +11,8 @@ else
 {
 va_list ptr;
 va_start(ptr, n);
-for (int i = 0; i < n; i++)
+unsigned int 1;
+for (i = 0; i < n; i++)
 Sum += va_arg(ptr, int);
 va_end(ptr);
 
