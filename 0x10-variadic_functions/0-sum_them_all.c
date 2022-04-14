@@ -13,7 +13,7 @@ else
 va_list ptr;
 va_start(ptr, n);
 for (i = 0; i < n; i++)
-Sum += va_arg(ptr, int);
+sum += va_arg(ptr, int);
 va_end(ptr);
 
 return sum;
