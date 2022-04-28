@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #define BIT_SIZE 8
 
 /**
